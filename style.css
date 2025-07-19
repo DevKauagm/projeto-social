@@ -6,10 +6,11 @@ body {
     margin: 0;
 }
 
-#tela {
+#frame-iphone {
     display: block;
     background-image: url('imagens/frame-iphone.png');
     margin: auto;
+    margin-top: -100px;
     position: relative;
     width: 311px;
     height: 627px;
@@ -33,5 +34,4 @@ a > img {
 #menu {
     display: inline-block;
     width: 50px;
-    transform: translate(0, 50px);
 }
