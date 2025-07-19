@@ -27,7 +27,8 @@ iframe {
 }
 
 a > img {
-    width: 50px;
+    min-width: 30px;
+    width: 5vw;
     border-radius: 50px;
 }
 
