@@ -8,13 +8,14 @@ body {
 
 main {
     position: relative;
+    width: 100vw;
+    height: 100vh;
 }
 
 #celular {
     display: block;
     background-image: url('../imagens/frame-iphone.png');
     margin: auto;
-    margin-top: -100px;
     position: absolute;
     width: 311px;
     height: 627px;
@@ -23,7 +24,7 @@ main {
     transform: translate(-50%, -50%);
 }
 
-iframe {
+iframe#tela {
     display: block;
     width: 268px;
     height: 473px;
