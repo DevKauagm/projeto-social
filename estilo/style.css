@@ -1,14 +1,14 @@
 @charset "UTF-8";
 
 body {
-    background: white url('imagens/fundo-madeira.jpg') center center / cover no-repeat fixed;
+    background: white url('../imagens/fundo-madeira.jpg') center center / cover no-repeat fixed;
     text-align: right;
     margin: 0;
 }
 
 #frame-iphone {
     display: block;
-    background-image: url('imagens/frame-iphone.png');
+    background-image: url('../imagens/frame-iphone.png');
     margin: auto;
     margin-top: -100px;
     position: relative;
@@ -28,6 +28,7 @@ iframe {
 
 a > img {
     min-width: 30px;
+    max-width: 50px;
     width: 5vw;
     border-radius: 50px;
 }
