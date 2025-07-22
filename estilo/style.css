@@ -34,11 +34,21 @@ iframe#tela {
     transform: translate(-50%, -50%);
 }
 
-a > img {
+#menu img {
     min-width: 30px;
     max-width: 50px;
     width: 5vw;
     border-radius: 50px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+}
+
+#menu img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    transition: transform .5s, border 0.5s;
 }
 
 #menu {
