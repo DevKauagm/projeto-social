@@ -6,14 +6,21 @@ body {
     margin: 0;
 }
 
-#frame-iphone {
+main {
+    position: relative;
+}
+
+#celular {
     display: block;
     background-image: url('../imagens/frame-iphone.png');
     margin: auto;
     margin-top: -100px;
-    position: relative;
+    position: absolute;
     width: 311px;
     height: 627px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 iframe {
